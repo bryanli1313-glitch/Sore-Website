@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sora · AI Video Generation</title>
+
+  <style>
+    :root {
+      --bg: #050816;
+      --bg-alt: #070b19;
+      --accent: #6c5ce7;
+      --accent-soft: rgba(108, 92, 231, 0.18);
+      --accent-2: #00cec9;
+      --text-main: #f5f7ff;
+      --text-muted: #a3aed0;
+      --border-subtle: rgba(255, 255, 255, 0.06);
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --shadow-soft: 0 24px 40px rgba(0, 0, 0, 0.65);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #111827 0, #050816 42%, #020412 100%);
+      color: var(--text-main);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--accent-2);
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      font-size: 1.15rem;
+      color: var(--text-muted);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-subtle);
+      padding: 30px;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft);
+      margin-bottom: 30px;
+    }
+
+    .card h2 {
+      color: var(--accent);
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Sora · AI Video Generation</h1>
+    <p class="subtitle">Create hyper-realistic AI videos in seconds.</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>What is Sora?</h2>
+      <p>
+        Sora is an advanced AI diffusion model that generates consistent, realistic,
+        multi-scene videos directly from text or images.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Features</h2>
+      <ul>
+        <li>High-fidelity video generation</li>
+        <li>Scene-consistent storytelling</li>
+        <li>Advanced physics simulation</li>
+        <li>Camera motion control</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
